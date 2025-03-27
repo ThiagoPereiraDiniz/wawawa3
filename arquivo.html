@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header></header>
+    <h1> Isso não é uma página séria</h1>
+    <p> Mas agora que você ja ta aqui, peço que vá até o final</p>
+    <img src="memegatobravo.jpg">
+
+    <main>
+        <h1 class="meio"> POR FAVOR, NÃO CLIQUE NO BOTÃO OU ELE IRÁ TE LIGAR</h1>
+        <p>EU BEM QUE AVISEI</p>
+        <button onclick="tocarSom()">Clique para ouvir o meme</button>
+    
+    <audio id="audioMeme">
+        <source src="meme.mp3" type="audio/mpeg">
+        Seu navegador não suporta áudio.
+    </audio>
+
+    <script>
+        function tocarSom() {
+            document.getElementById("audioMeme").play();
+        }
+    </script>
+    </main>
+    <footer></footer>
+</body>
+</html>
